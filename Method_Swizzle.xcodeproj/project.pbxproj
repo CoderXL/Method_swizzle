@@ -21,6 +21,8 @@
 		1F6E4A5918DC5B87008F6209 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6E4A3B18DC5B87008F6209 /* UIKit.framework */; };
 		1F6E4A6118DC5B88008F6209 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F6E4A5F18DC5B88008F6209 /* InfoPlist.strings */; };
 		1F6E4A6318DC5B88008F6209 /* Method_SwizzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E4A6218DC5B88008F6209 /* Method_SwizzleTests.m */; };
+		1F6E4A6E18DC682C008F6209 /* UIViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E4A6D18DC682C008F6209 /* UIViewController+Tracking.m */; };
+		1F6E4A7118DC7350008F6209 /* A.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E4A7018DC7350008F6209 /* A.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		1F6E4A5E18DC5B88008F6209 /* Method_SwizzleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Method_SwizzleTests-Info.plist"; sourceTree = "<group>"; };
 		1F6E4A6018DC5B88008F6209 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F6E4A6218DC5B88008F6209 /* Method_SwizzleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Method_SwizzleTests.m; sourceTree = "<group>"; };
+		1F6E4A6C18DC682C008F6209 /* UIViewController+Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tracking.h"; sourceTree = "<group>"; };
+		1F6E4A6D18DC682C008F6209 /* UIViewController+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tracking.m"; sourceTree = "<group>"; };
+		1F6E4A6F18DC7350008F6209 /* A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A.h; sourceTree = "<group>"; };
+		1F6E4A7018DC7350008F6209 /* A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				1F6E4A4918DC5B87008F6209 /* Main.storyboard */,
 				1F6E4A4C18DC5B87008F6209 /* ViewController.h */,
 				1F6E4A4D18DC5B87008F6209 /* ViewController.m */,
+				1F6E4A6C18DC682C008F6209 /* UIViewController+Tracking.h */,
+				1F6E4A6D18DC682C008F6209 /* UIViewController+Tracking.m */,
+				1F6E4A6F18DC7350008F6209 /* A.h */,
+				1F6E4A7018DC7350008F6209 /* A.m */,
 				1F6E4A4F18DC5B87008F6209 /* Images.xcassets */,
 				1F6E4A3E18DC5B87008F6209 /* Supporting Files */,
 			);
@@ -249,7 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F6E4A7118DC7350008F6209 /* A.m in Sources */,
 				1F6E4A4E18DC5B87008F6209 /* ViewController.m in Sources */,
+				1F6E4A6E18DC682C008F6209 /* UIViewController+Tracking.m in Sources */,
 				1F6E4A4818DC5B87008F6209 /* AppDelegate.m in Sources */,
 				1F6E4A4418DC5B87008F6209 /* main.m in Sources */,
 			);
